@@ -4,7 +4,7 @@ import { useForecastQuery } from '../../application/queries/useForecastQuery';
 import { ForecastCard } from '../components/ForecastCard';
 import { HourlyTimeline } from '../components/HourlyTimeline';
 import { ArrowLeft } from 'lucide-react';
-import { ForecastCardSkeleton, HourlyTimelineSkeleton } from '../components/SkeletonLoader';
+import { ForecastCardSkeleton } from '../components/SkeletonLoader';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import type { ForecastDay } from '../../domain/entities/Forecast';
